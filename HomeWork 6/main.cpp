@@ -1,4 +1,4 @@
-#include <iostream>
+Ôªø#include <iostream>
 using namespace std;
 using std::cin;
 using std::cout;
@@ -18,7 +18,7 @@ void main()
 #ifdef FACTORIAL
 	int n;
 	double f = 1;
-	cout << "¬‚Â‰ËÚÂ ˜ËÒÎÓ: "; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ —á–∏—Å–ª–æ: "; cin >> n;
 	for (int i = 1; i <= n; i++)
 	{
 		cout << i << "! = ";
@@ -28,11 +28,11 @@ void main()
 #endif // FACTORIAL
 
 #ifdef DEGREE
-	double a;  // ŒÒÌÓ‚‡ÌËÂ ÒÚÂÔÂÌË
-	int n;  // œÓÍ‡Á‡ÚÂÎ¸ ÒÚÂÔÂÌË
-	double N = 1;  //—ÚÂÔÂÌ¸
-	cout << "¬‚Â‰ËÚÂ ÓÒÌÓ‚‡ÌËÂ ÒÚÂÔÂÌË: "; cin >> a;
-	cout << "¬‚Â‰ËÚÂ ÔÓÍ‡Á‡ÚÂÎ¸ ÒÚÂÔÂÌË: "; cin >> n;
+	double a;  // –û—Å–Ω–æ–≤–∞–Ω–∏–µ —Å—Ç–µ–ø–µ–Ω–∏
+	int n;  // –ü–æ–∫–∞–∑–∞—Ç–µ–ª—å —Å—Ç–µ–ø–µ–Ω–∏
+	double N = 1;  //–°—Ç–µ–ø–µ–Ω—å
+	cout << "–í–≤–µ–¥–∏—Ç–µ –æ—Å–Ω–æ–≤–∞–Ω–∏–µ —Å—Ç–µ–ø–µ–Ω–∏: "; cin >> a;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –ø–æ–∫–∞–∑–∞—Ç–µ–ª—å —Å—Ç–µ–ø–µ–Ω–∏: "; cin >> n;
 	cout << a << " ^ " << n << " = ";
 	if (n < 0)
 	{
@@ -47,7 +47,7 @@ void main()
 #endif // DEGREE
 	
 #ifdef ASCII
-	cout << "“‡·ÎËˆ‡ ASCII-ÒËÏ‚ÓÎÓ‚:\n";
+	cout << "–¢–∞–±–ª–∏—Ü–∞ ASCII-—Å–∏–º–≤–æ–ª–æ–≤:\n";
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i < 256; i++)
 	{
@@ -59,7 +59,7 @@ void main()
 
 #ifdef FIBONACCI
 	int n;
-	cout << "¬‚Â‰ËÚÂ ÔÂ‰ÂÎ¸ÌÓÂ ˜ËÒÎÓ: "; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –ø—Ä–µ–¥–µ–ª—å–Ω–æ–µ —á–∏—Å–ª–æ: "; cin >> n;
 	for (int a = 0, b = 1, c = a + b; a < n; a = b, b = c, c = a + b)
 	{
 		cout << a << "\t";
@@ -69,7 +69,7 @@ void main()
 
 #ifdef SIMPLE_DIGIT
 	int n;
-	cout << "¬‚Â‰ËÚÂ ÔÂ‰ÂÎ¸ÌÓÂ ˜ËÒÎÓ: "; cin >> n;
+	cout << "–í–≤–µ–¥–∏—Ç–µ –ø—Ä–µ–¥–µ–ª—å–Ω–æ–µ —á–∏—Å–ª–æ: "; cin >> n;
 	for (int i = 0; i < n; i++)
 	{
 		bool simple = true;
